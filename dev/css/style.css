@@ -1,0 +1,492 @@
+@media (max-width: 767px) {
+  button img {
+    width: 100%;
+  }
+
+  .coupon, .counter {
+    font-size: 18px !important;
+  }
+
+  .navbar > .container-fluid .navbar-brand {
+    margin-top: -15px;
+  }
+
+  .navbar-brand {
+    width: 80%;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-right {
+    margin-top: -8px !important;
+  }
+
+  .navbar-brand img {
+    margin-top: -5%;
+  }
+
+  #service {
+    background: url('../img/bg-services-sm.jpg') #ffffff;
+    height: 298px;
+    margin-top: 80px;
+  }
+
+  #service h2, #service h1 {
+    font-weight: 100;
+  }
+
+  .coupon {
+    font-size: 24px;
+  }
+
+  #services img {
+    margin-top: -75px;
+  }
+
+  #about {
+    background: url('../img/bg-dark-sm.jpg') #E6EDF1;
+    color: #fff;
+    height: 735px;
+  }
+
+  #about p {
+    margin-top: -60px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* collapse navbar */
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+  /* collapse navbar */
+
+  .navbar-right {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+
+  .navbar > .container-fluid .navbar-brand {
+    margin-top: -14px;
+  }
+
+  #service {
+    background: url('../img/bg-services-sm.jpg') #ffffff;
+    height: 298px;
+    margin-top: 80px;
+  }
+
+  #service h1 img {
+    width: 355px;
+  }
+
+  #about .text-center {
+    margin-top: -45px
+  }
+
+  #about p {
+    margin-top: -83px;
+  }
+
+  #about {
+    background: url('../img/bg-dark-md.jpg');
+    height: 385px;
+  }
+
+  #about button {
+    margin-top: 30px;
+  }
+
+  .coupon, .counter {
+    font-size: 24px !important;
+  }
+
+  .third-review {
+    padding-bottom: 50px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* collapse navbar */
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+  /* collapse navbar */
+
+  .navbar-right {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+
+  .navbar img {
+    margin-top: -15px;
+  }
+
+  .logo-big img {
+    margin-left: -8px;
+  }
+
+  #service {
+    background: url('../img/bg-services-md.jpg') #ffffff;
+    height: 385px;
+    margin-top: 80px;
+  }
+
+  #service button {
+    margin-top: 30px;
+  }
+
+  .coupon {
+    margin-top: 40px;
+  }
+
+  #how-work {
+    height: 670px;
+  }
+
+  #how-work img {
+    margin-top: -25px;
+  }
+
+  #how-work button {
+    padding-top: 90px;
+  }
+
+  #how-work .icons {
+    margin-top: -50px;
+  }
+
+  #about {
+    background: url('../img/bg-dark.jpg');
+    height: 654px;
+    color: #fff;
+  }
+
+  #about h1 {
+    margin-top: 100px;
+  }
+
+  #about button {
+    margin-top: 165px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .header .container {
+    background: url('../img/logo-header.png') no-repeat #0058B5;
+    height: 80px;
+  }
+  
+  .header ul {
+    margin-left: 230px;
+  }
+
+  .navbar-brand {
+    margin-top: -15px;
+  }
+
+  .navbar > .container-fluid .navbar-brand {
+    margin-top: -15px;
+  }
+
+  .phone-img {
+    margin-top: -17px;
+  }
+
+  .logo-big img {
+    margin-left: -8px;
+  }
+
+  #about {
+    color: #fff;
+  }
+
+  #about p {
+    margin-top: 70px;
+    font-size: 18px;
+  }
+
+  #about h1 {
+    margin-top: 100px;
+  }
+
+  #about button {
+    margin-top: 130px;
+  }
+
+  #service {
+    background: url('../img/bg-services.jpg') #ffffff;
+    height: 762px;
+  }
+
+  .logo-big {
+    margin-top: 200px;
+    font-weight: 400;
+  }
+
+  .counter {
+    margin-top: 60px;
+  }
+
+  .coupon {
+    margin-top: 60px;
+    font-weight: 400;
+  }
+
+  #service button {
+    margin-top: 70px;
+  }
+
+  #how-work {
+    background-color: #f7f7f5;
+    height: 770px;
+  }
+
+  #about {
+    background: url('../img/bg-dark.jpg');
+    height: 654px;
+  }
+
+  #reviews h1 {
+    margin-top: -10px !important;
+  }
+
+  .first-review {
+    margin-top: -50px;
+  }
+}
+
+body {
+  color: #636363;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+nav .container, #service .container {
+  padding-top: 0;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  max-height: 78px;
+}
+
+.navbar ul li {
+  background-color: #0058B5;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+form label {
+  margin-left: 12px;
+}
+
+.font-weight-100 {
+  font-weight: 100;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.calculate {
+  background: transparent;
+  border: 0;
+}
+
+.header-menu {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.header-menu li {
+  display: inline;
+  padding: 10px;
+}
+
+.header {
+  background-color: #0058b5;
+  height: 80px;
+  color: white;
+  margin-top: -80px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.header ul {
+  margin-top: 15px
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #fff;
+  background-color: #004FA2;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #0058b5;
+  border-color: #0058b5;
+  height: 80px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top: 20px;
+}
+
+.navbar-nav {
+  margin-top: 17px;
+}
+
+.logo-big, .counter {
+  color: #0058b5;
+}
+
+.logo-big img {
+  max-width: 100%;
+  max-height: 98px;
+}
+
+#services {
+  height: 100%;
+}
+
+#services h1, #how-work h1, #reviews h1, #about h1 {
+  margin: 50px 0 100px 0;
+  color: #0058b5;
+  text-align: center;
+}
+
+#about h1 {
+  color: #fff;
+}
+
+#services .text-center {
+  padding-bottom: 50px;
+}
+
+#services button {
+  margin-bottom: 50px;
+}
+
+#how-work button {
+  padding-top: 75px;
+}
+
+#how-work {
+  background-color: #f6f7f5;
+}
+
+#about p {
+  color: #fff;
+}
+
+#reviews {
+  height: 800px;
+}
+
+.first-review, .second-review, .third-review {
+  display: table;
+}
+
+.first-review img, .third-review img {
+  margin-right: 25px;
+}
+
+form, form label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+form label {
+  font-weight: 500;
+}
+
+form button {
+  margin-top: 25px;
+}
+
+.error {
+  color: red;
+}

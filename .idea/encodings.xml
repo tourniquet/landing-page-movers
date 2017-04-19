@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/build/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/build/js/scripts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev/index.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev/js/scripts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulpfile.js" charset="UTF-8" />
+  </component>
+</project>

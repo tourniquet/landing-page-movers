@@ -1,0 +1,277 @@
+doctype html
+html
+	head
+		title Customer Movers
+
+		meta(charset="utf-8")
+
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+
+		link(rel="stylesheet", type="text/css", media="screen", href="css/style.min.css")
+
+		link(href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic&subset=latin,latin-ext', rel='stylesheet', type='text/css')
+
+	body
+		nav.navbar.navbar-default.navbar-fixed-top
+			.container
+				.navbar-header
+					button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#navbar-collapse", aria-expanded="false")
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+
+					a.navbar-brand(href="#")
+						img(src="img/logo-header.png", alt="Header logo")
+
+				#navbar-collapse.collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li.active
+							a(href="#service") Our service
+						li
+							a(href="#how-work") How we work
+						li
+							a(href="#about") About us
+						li
+							a(href="#reviews") Reviews
+
+					ul.nav.navbar-nav.navbar-right
+						li
+							a(href="#")
+								i.fa.fa-facebook-square
+						li
+							a(href="#")
+								i.fa.fa-twitter
+						li
+							a(href="#")
+								i.fa.fa-instagram
+						li
+							a(href="#")
+								i.fa.fa-google-plus
+						li
+							a(href="http://facebook.com")
+								img.phone-img(src="img/phone.png", alt="Phone number")
+
+
+		#service
+			.container
+				.col-md-12.col-lg-12.text-center
+					h1.logo-big
+						i
+							span.font-weight-100 Welcome to &nbsp;
+							img(src="img/logo-big.png", alt="Big logo")
+
+					h1.coupon Get an 100$ coupon for first moving order!
+
+					h2.counter
+
+					button.calculate(type="button", data-toggle="modal", data-target="#form-modal")
+						img(src="img/button.png", alt="Calculate an order")
+
+
+		#services
+			.container
+				h1
+					i
+						span.font-weight-100 Our &nbsp;
+						span.font-weight-500 Services
+
+				.row
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-residential.png", alt="House image")
+						.text-center.h4 Residential moving
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-office.png", alt="Office image")
+						.text-center.h4 Office moving
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-piano.png", alt="Piano image")
+						.text-center.h4 Piano and pool table moving
+				.row
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-storage.png", alt="Storage image")
+						.text-center.h4 Storage
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-packing.png", alt="Package image")
+						.text-center.h4 Assembling, package
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-garbage.png", alt="Garbage image")
+						.text-center.h4 Garbage moving
+				.row
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-cargo.png", alt="Truck image")
+						.text-center.h4 Cargo deliver
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-insurance.png", alt="Cargo insurance image")
+						.text-center.h4 Cargo insurance
+					.col-xs-12.col-sm-4.col-md-4.col-lg-4.text-center
+						img(src="img/services-distance.png", alt="Airplane image")
+						.text-center.h4 Long distance moving
+
+				button.calculate.center-block(type="button", data-toggle="modal", data-target="#form-modal")
+					img(src="img/button.png", alt="Calculate an order")
+
+
+		#how-work
+			.container
+				.col-md-12.col-lg-12.text-center
+					h1
+						i.font-weight-100 How &nbsp;
+							span.font-weight-500 We Work
+
+				.col-xs-12.col-lg-12.col-md-4.col-lg-4.text-center.icons
+					img(src="img/work-order.png", alt="Make an order")
+					.text-center.h3 Make an order
+				.col-xs-12.col-lg-12.col-md-4.col-lg-4.text-center.icons
+					img(src="img/work-details.png", alt="Fix details")
+					.text-center.h3 Fix details
+				.col-xs-12.col-lg-12.col-md-4.col-lg-4.text-center.icons
+					img(src="img/work-happy.png", alt="Be happy")
+					.text-center.h3 Be happy
+
+				button.calculate.center-block(type="button", data-toggle="modal", data-target="#form-modal")
+					img(src="img/button.png", alt="Calculate an order")
+
+
+		#about
+			.container
+				.col-md-12.col-lg-12.text-center
+					h1
+						i.font-weight-100 Welcome to &nbsp;
+							span.font-weight-500 Customer Movers
+
+					p Movers & Customers is one of the lending relocation in Seattle. We provide a variety
+						| of specialized services for residential and corporate clients and exceptionally skilled in moving apartments,
+						| condominiums, homes, retail stores, warhorses, and many other facilities. Our team uses the most modern technical
+						| equipment amiable to perform duties ranging in complexity. Our responsible employees and performance driven
+						| movers work hard guarantee you maximum effort and care at all phases of the transportation process.
+
+					button.calculate.center-block(type="button", data-toggle="modal", data-target="#form-modal")
+						img(src="img/button.png", alt="Calculate an order")
+
+
+		#reviews
+			.container
+				h1
+					i.font-weight-100 Our &nbsp;
+						span.font-weight-500 Clients
+
+				.row.first-review
+					img.img-circle(src="img/first-review.png", style="float: left;", alt="first review")
+
+					.some(style="vertical-align: middle; display: table-cell;")
+						h3 John, Seattle
+						i Moving is a really big deal and Movers & Customers made it as painless as possible.
+
+
+				.row.second-review
+					.some(style="vertical-align: middle; display: table-cell;")
+						h3 John, Seattle
+						i I have moving tow times in past three years. In selection movers, I would compare price and haw they treat us.
+							| I picked move Movers and Customers out of  four companies. Not only the price is reasonable good but also
+							| he paid attention  to detail and showed that he cares about us.
+
+					img.img-circle(src="img/second-review.png", style="float: right;", alt="second review")
+
+
+				.row.third-review
+					img(src="img/third-review.png", style="float: left;", alt="third review")
+
+					.some(style="vertical-align: middle; display: table-cell;")
+						h3 John, Seattle
+						i On moving day I discovered that my apartment management had scheduled all my carpet to be replaced at the very
+							| same time that the Movers & Customers moving company was to be arriving with my furniture.  I was a wreck.
+							| The two gentlemen that work for Movers & Customers moving were absolutely amazing!!!  They were kind, considerate,
+							| very professional and were very hard working.  Moving is stressful enough as it is and these guys turned a
+							| horrible situation into a walk in the park.  I am very grateful and will hire this company each and every
+							| time I move and will also refer them to my friends and family.
+
+
+		//- "calculate order" modal window
+		#form-modal.modal.fade(tabindex="-1", role="dialog", aria-labelledby="form-modal")
+			.modal-dialog.modal-lg(role="document")
+				.modal-content
+					.modal-body
+						button.close(type="button", data-dismiss="modal", aria-label="Close")
+							span(aria-hidden="true") &times;
+
+						h3#form-modal-label.modal-title.text-center(style="font-weight: 300; color: #0058b5")
+							i Request an &nbsp;
+								span(style="font-weight: 500") Order Calculation
+
+						form#form-order.form(style="margin-top: 50px;", method="POST", action="")
+							.row
+								.form-group.col-xs-12.col-sm-8.col-md-6.col-lg-6.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
+									label(for="form-client-name") Name
+									input#form-client-name.form-control(name="form-client-name", type="text", placeholder="ex. John Doe")
+
+							.row
+								.form-group.col-xs-12.col-sm-8.col-md-6.col-lg-6.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
+									label(for="form-phone") Phone
+									input#form-phone.form-control(name="form-phone", type="text", placeholder="ex. 1 206 769 6430")
+
+							.row
+								.form-group.col-xs-12.col-sm-8.col-md-6.col-lg-6.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
+									label(for="form-email") Email
+									input#form-email.form-control(name="form-email", type="text", placeholder="ex. admin@example.com")
+
+							.row
+								.col-md-6
+									.form-group
+										label(for="form-moving-from-address") Pick up address
+										input#form-moving-from-address.form-control(name="form-moving-from-address", type="text", placeholder="ex. 2289 S 87TH ST")
+
+									.form-group
+										label(for="form-moving-from-city") City
+										input#form-moving-from-city.form-control(name="form-moving-from-city", type="text", placeholder="ex. Seattle")
+
+									.form-group
+										label(for="form-moving-from-zip") Zip Code
+										input#form-moving-from-zip.form-control(name="form-moving-from-zip", type="text", placeholder="ex. 98555")
+
+								.col-md-6
+									.form-group
+										label(for="form-moving-to-address") Destination address
+										input#form-moving-to-address.form-control(name="form-moving-to-address", type="text", placeholder="ex. 2378 NE 5 AVE")
+
+									.form-group
+										label(for="form-moving-to-city") City
+										input#form-moving-to-city.form-control(name="form-moving-to-city", type="text", placeholder="ex. Tacoma")
+
+									.form-group
+										label(for="form-moving-to-zip") Zip Code
+										input#form-moving-to-zip.form-control(name="form-moving-to-zip", type="text", placeholder="ex. 98221")
+
+							.row.text-center
+								select#form-home-type.selectpicker.col-xs-12.col-sm-8.col-md-6.col-lg-6(name="form-home-type")
+									option(value="") Select home size
+									option(value="Studio") Studio
+									option(value="1 Bedroom Apt") 1 Bedroom Apt
+									option(value="1 Bedroom House") 1 Bedroom House
+									option(value="2 Bedroom Apt") 2 Bedroom Apt
+									option(value="2 Bedroom House") 2 Bedroom House
+									option(value="3 Bedroom Apt") 3 Bedroom Apt
+									option(value="3 Bedroom House") 3 Bedroom House
+									option(value="4 Bedroom Apt") 4 Bedroom Apt
+									option(value="4 Bedroom House") 4 Bedroom House
+									option(value="5 Bedroom Apt") 5 Bedroom Apt
+									option(value="5 Bedroom House") 5 Bedroom House
+									option(value="6 Bedroom Apt") 6 Bedroom Apt
+									option(value="6 Bedroom House") 6 Bedroom House
+									option(value="6 or more Bedroom Apt") 6 or more Bedroom Apt
+									option(value="6 or more Bedroom House") 6 or more Bedroom House
+
+							.row
+								.col-xs-12.col-sm-8.col-md-6.col-lg-6.col-sm-offset-2.col-md-offset-3.col-lg-offset-3(style="margin-top: 25px;")
+									.form-group
+										.datetimepicker.input-group.date
+											input#form-moving-date.form-control(name="form-moving-date", type="text")
+											span.input-group-addon
+												span.glyphicon.glyphicon-calendar
+
+							.row.text-center(style="margin: 50px 0 50px 0;")
+								button.calculate(type="button", onclick="sendFormData();")
+									img(src="img/button.png", alt="Calculate an order")
+
+
+		script(src="libs/libs.min.js")
+		script(src="js/scripts.js")
